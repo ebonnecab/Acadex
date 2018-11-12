@@ -7,6 +7,7 @@ const port = 3000;
 //Middleware
 app.engine(".hbs", exphbs({ extname: ".hbs", defaultLayout: "main" }));
 app.set("view engine", ".hbs");
+app.use(express.static("public"));
 
 //GET routes
 app.get("/", (req, res) => {
