@@ -1,2 +1,5 @@
-/node_modules 
+# Ignoring these files in our git repo
+node_modules/
 *.json
+*.txt
+.gitignore

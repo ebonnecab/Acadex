@@ -1,6 +1,6 @@
 # Acadex
 
-1. Web Server
+1. Back-End
    > Node
-2. Templating Engine
+2. Template Engine
    > Handlebars
