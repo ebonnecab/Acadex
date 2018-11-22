@@ -1,0 +1,68 @@
+@import "reset.css";
+
+/* Global styles */
+a {
+  text-decoration: none;
+}
+
+main {
+  height: 100%;
+  background-color: black;
+}
+
+/* Nav styles  */
+nav {
+  height: 5em;
+  background-color: cyan;
+  width: 100%;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  margin-top: 1em;
+  font-size: 1.4em;
+}
+
+nav ul li a {
+  color: white;
+  margin: 1em;
+}
+
+nav ul li:first-child {
+  margin-left: 2em;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+/* Styles for the main section */
+main h1,
+main p {
+  text-align: center;
+  color: white;
+}
+
+main p {
+  width: 50%;
+  margin-left: 20em;
+  margin-top: 5em;
+}
+
+main button {
+  margin-top: 2em;
+  margin-left: 90%;
+}
+
+main button:hover {
+  background-color: cyan;
+}
+
+main h1 {
+  font-size: 5em;
+  padding-top: 1em;
+}
