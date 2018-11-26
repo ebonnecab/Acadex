@@ -5,10 +5,8 @@ a {
   text-decoration: none;
 }
 
-main {
-  height: 100%;
-  background-color: black;
-}
+
+
 
 /* Nav styles  */
 nav {
@@ -41,6 +39,11 @@ nav ul li a:hover {
 }
 
 /* Styles for the main section */
+main {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
 main h1,
 main p {
   text-align: center;

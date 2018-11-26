@@ -1,0 +1,25 @@
+body {
+  background-color:lightblue;
+}
+
+
+.buttons button {
+  width: 100px;
+  height: 50px;
+  border-radius: 10%;
+  background-color: lightgray;
+}
+
+.buttons button:hover {
+  background-color: red;
+}
+.buttons button span {
+  color: black;
+  font-size: 2em;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  background-color:red;
+}
