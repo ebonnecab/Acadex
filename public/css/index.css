@@ -1,5 +1,7 @@
 @import "reset.css";
 
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Poppins|Raleway|Open + Sans');
+
 /* Global styles */
 a {
   text-decoration: none;
@@ -7,13 +9,14 @@ a {
 
 main {
   height: 100%;
-  background-color: black;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 0.1em;
 }
+
 
 /* Nav styles  */
 nav {
   height: 5em;
-  background-color: cyan;
   width: 100%;
 }
 
@@ -22,13 +25,24 @@ nav ul {
 }
 
 nav ul li {
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 0.1em;
   margin-top: 1em;
   font-size: 1.4em;
+  margin-left: 30%;
 }
 
 nav ul li a {
-  color: white;
+  color: #6699cc;
   margin: 1em;
+}
+
+a img {
+  padding: 15px;
+}
+
+a p{
+  align-self: center;
 }
 
 nav ul li:first-child {
@@ -44,12 +58,13 @@ nav ul li a:hover {
 main h1,
 main p {
   text-align: center;
-  color: white;
+  
 }
 
-main p {
+
+.main-txt{
   width: 50%;
-  margin-left: 20em;
+  margin-left: 15em;
   margin-top: 5em;
 }
 
@@ -62,7 +77,8 @@ main button:hover {
   background-color: cyan;
 }
 
-main h1 {
+.header h1 {
   font-size: 5em;
   padding-top: 1em;
+
 }
