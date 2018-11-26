@@ -1,6 +1,6 @@
 @import "reset.css";
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat|Poppins|Raleway|Open + Sans');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Poppins|Raleway|Oswald');
 
 /* Global styles */
 a {
@@ -13,6 +13,9 @@ main {
   letter-spacing: 0.1em;
 }
 
+body{
+  overflow: hidden;
+}
 
 /* Nav styles  */
 nav {
@@ -26,14 +29,15 @@ nav ul {
 
 nav ul li {
   font-family: 'Raleway', sans-serif;
+  font-weight: 100;
   letter-spacing: 0.1em;
   margin-top: 1em;
-  font-size: 1.4em;
+  font-size: 1.2em;
   margin-left: 30%;
 }
 
 nav ul li a {
-  color: #6699cc;
+  color:#00b3e6;
   margin: 1em;
 }
 
@@ -50,8 +54,8 @@ nav ul li:first-child {
 }
 
 nav ul li a:hover {
-  text-decoration: underline;
-  color: black;
+  text-decoration: dotted;
+  color:#d4ef40;
 }
 
 /* Styles for the main section */
@@ -64,8 +68,12 @@ main p {
 
 .main-txt{
   width: 50%;
-  margin-left: 15em;
+  margin-left: 20em;
   margin-top: 5em;
+  font-weight: thin;
+  line-height: 2em;
+  font-style: italic;
+
 }
 
 main button {
@@ -79,6 +87,15 @@ main button:hover {
 
 .header h1 {
   font-size: 5em;
-  padding-top: 1em;
-
+  color: #00b3e6;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
 }
+
+.header img{
+  display: flex;
+  margin-left: 38em;
+  margin-top: 10em;
+}
+
+
