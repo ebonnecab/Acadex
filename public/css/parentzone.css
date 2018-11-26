@@ -1,16 +1,20 @@
-header {
-  background-color: red;
-  height: 710px;
+html, body {
+  width: 100%;
+  margin: 0;
+}
+.wrapper {
+  /* background-color: red; */
+  height: 680px;
 }
 
-h1 {
+.header {
   text-align: center;
   font-size: 2em;
-  color: white;
+  color: black;
   padding-top: 1.2em;
 }
 
-img {
+.resize {
   width: 50%;
   height: 50%;
 }
@@ -22,12 +26,12 @@ img {
   justify-content: space-evenly;
 }
 
-p {
+.description {
   width: 40%;
-  color: white;
+  color: black;
 }
 
-header button {
+.cta-btn{
   position: absolute;
   border: none;
   margin-left: 50%;

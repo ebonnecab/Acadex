@@ -1,0 +1,47 @@
+/* Styles for the main section */
+main h1,
+main p {
+    text-align: center;
+
+}
+
+main {
+    height: 100%;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.1em;
+}
+
+
+
+.main-txt {
+    width: 50%;
+    margin-left: 20em;
+    margin-top: 5em;
+    font-weight: thin;
+    line-height: 2em;
+    font-style: italic;
+
+}
+
+main button {
+    margin-top: 4em;
+    margin-left: 47%;
+}
+
+main button:hover {
+    background-color: cyan;
+}
+
+.header h1 {
+    font-size: 5em;
+    color: #00b3e6;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.header img {
+    display: flex;
+    margin-left: 38em;
+    margin-top: 10em;
+    position: relative;
+}
