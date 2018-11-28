@@ -7,29 +7,23 @@ a {
   text-decoration: none;
 }
 
-<<<<<<< HEAD
 
 
-=======
->>>>>>> 3398edceec1f8ded7b087031f8e0833551b9505e
 
 /* Nav styles  */
-nav {
-  height: 5em;
-  width: 100%;
-}
 
 nav ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-direction: row;
 }
 
 nav ul li {
   font-family: 'Raleway', sans-serif;
-  font-weight: 100;
+  font-weight: light;
   letter-spacing: 0.1em;
   font-size: 1.2em;
+  text-align: center;
 }
 
 nav ul li a {
