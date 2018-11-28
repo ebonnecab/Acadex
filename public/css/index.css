@@ -49,3 +49,6 @@ nav ul li a:hover {
   color:#d4ef40;
 }
 
+button a:visited {
+  color: white;
+}
