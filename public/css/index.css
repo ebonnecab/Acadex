@@ -7,11 +7,12 @@ a {
   text-decoration: none;
 }
 
-
+a:hover {
+  cursor: pointer;
+}
 
 
 /* Nav styles  */
-
 nav ul {
   display: flex;
   justify-content: space-around;
@@ -28,7 +29,6 @@ nav ul li {
 
 nav ul li a {
   color:#00b3e6;
-  margin: 1em;
 }
 
 a img {
@@ -36,12 +36,9 @@ a img {
 }
 
 a p{
-  align-self: center;
+  text-align: center;
 }
 
-nav ul li:first-child {
-  margin-left: 2em;
-}
 
 nav ul li a:hover {
   text-decoration: dotted;

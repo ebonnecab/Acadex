@@ -20,7 +20,7 @@ main {
 
 .main-txt {
     width: 50%;
-    margin-top: 5em;
+    margin-top: 3em;
     font-weight: thin;
     line-height: 2em;
     font-style: italic;
@@ -31,14 +31,14 @@ main button {
     margin-top: 4em;
 }
 
-.header h1 {
+header h1 {
     font-size: 5em;
-    color: #00b3e6;
+    color: #0f00e6;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
 }
 
-.header img {
+header img {
     margin-top: 4em;
     position: relative;
 }
