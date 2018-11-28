@@ -58,7 +58,11 @@ button:hover{
 
 #progress {
   margin-top: 30px;
+<<<<<<< HEAD
   margin-left: -5em;
+=======
+  margin-left: -2.5em;
+>>>>>>> b321011c1bcc38c27d86b5294459a3450adf9241
   font-size: 2em;
   letter-spacing: 1px;
   border: 2.5px solid #ffc400;
