@@ -12,40 +12,60 @@
 </head>
 
 <body>
-  <nav>
-    <ul>
-      <li>
-        <a href="/">Home</a>
-      </li>
-      <li>
-        <a href="parentzone.html" class="rightside">Parent Zone</a>
-      </li>
-      <li>
-        <a href="kidzone.html" class="right-side">Kid Zone</a>
-      </li>
-    </ul>
-  </nav>
-  <div id="quiz">
-    <h1>Quiz</h1>
-    <p id="question"></p>
-    <img src="/public/img/insert.png" alt="">
-    <div class="buttons">
-      <button id="btn0">
-        <span id="choice0">Hey</span>
-      </button>
-      <button id="btn1">
-        <span id="choice1"></span>
-      </button>
-      <button id="btn2">
-        <span id="choice2"></span>
-      </button>
-      <button id="btn3">
-        <span id="choice3"></span>
-      </button>
-    </div>
-    <footer>
-      <p id="progress">Question x of y.</p>
-    </footer>
+<nav>
+  <ul>
+    <li id="logo">
+      <a href="index.html">
+        <img src='./public/img/icons/yellow_bulb.png' alt="bulb" />
+        <p>Acadex</p>
+      </a>
+    </li>
+    <li>
+      <a href="/">
+        <img src="public/img/icons/home_icon.png" alt="home" />
+        <p>Home</p>
+      </a>
+    </li>
+    <li>
+      <a href="parentzone.html" class="rightside">
+        <img src="public/img/icons/lock_icon.png" alt="lock" />
+        <p>Parent Zone</p>
+      </a>
+    </li>
+    <li>
+      <a href="kidzone.html" class="right-side">
+        <img src="/public/img/icons/battery_icon.png" alt="battery" />
+        <p>Kid Zone</p>
+      </a>
+    </li>
+  </ul>
+</nav>
+  <div class="game">
+    <section>
+      <img class="img-main" src="/public/img/insert.png" alt="">
+    </section>
+
+    <section>
+      <p id="question"></p>
+      <div class="buttons">
+        <button id="btn0">
+          <span id="choice0">Hey</span>
+        </button>
+        <button id="btn1">
+          <span id="choice1"></span>
+        </button>
+        <button id="btn2">
+          <span id="choice2"></span>
+        </button>
+        <button id="btn3">
+          <span id="choice3"></span>
+        </button>
+      </div>
+   
+      <footer>
+        <p id="progress">Question x of y.</p>
+      </footer>
+    </section>
   </div>
   <script src="/public/js/Question_controller.js"></script>
   <script src="/public/js/Question.js"></script>

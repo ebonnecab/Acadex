@@ -1,4 +1,4 @@
-body {
+.body {
   background-color:lightblue;
 }
 
@@ -18,8 +18,22 @@ body {
   font-size: 2em;
 }
 
-img {
+.img-main {
   width: 200px;
   height: 200px;
   background-color:red;
+}
+
+
+.game{
+  font-family: 'Raleway', sans-serif;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 4em;
+}
+
+.buttons{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
