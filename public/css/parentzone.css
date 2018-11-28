@@ -75,7 +75,8 @@ button:hover {
 
 /* About section */
 section.about {
-  height: 775px;
+  height: 705px;
+  background-color: #ece9e94b;
 }
 
 section.about h1{
