@@ -59,9 +59,10 @@ button:hover{
 }
 
 #progress {
-  margin-top: 40px;
+  margin-top: 30px;
   margin-left: -2.5em;
   font-size: 2em;
+  letter-spacing: 1px;
   border: 2.5px solid #ffc400;
   width: 240px;
   padding: 1em;
