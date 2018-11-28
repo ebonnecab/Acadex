@@ -40,7 +40,7 @@ function showProgress() {
 
 
 
-const text = "Which emotion does this display?"
+const text = "How is Jordan feeling today?"
 const questions = [
   new Question(text, ["Happy", "Sad", "Mad", "Annoyed"], "Happy"),
   new Question(text, ["Mad", "Sad", "Happy", "Be Quiet"], "Mad"),

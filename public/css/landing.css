@@ -50,11 +50,12 @@ button {
     font-size: 20px;
     padding: 25px;
     width: 200px;
-    letter-spacing: 0.2em;
+    letter-spacing: 1px;
     background-color: #00b3e6;
     color:white;
     border-radius: 50px;
     border: none;
+    outline: none;
 }
 
 button:hover {

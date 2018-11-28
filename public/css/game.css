@@ -1,25 +1,60 @@
-body {
+.body {
   background-color:lightblue;
 }
 
-
 .buttons button {
-  width: 100px;
+  width: 300px;
   height: 50px;
-  border-radius: 10%;
-  background-color: lightgray;
+  border-radius: 25px;
+  background-color: #67b2e8;
+  align-self: center;
+  border: none;
+  letter-spacing: 0.2em;
 }
 
 .buttons button:hover {
   background-color: red;
 }
 .buttons button span {
-  color: black;
+  color: white;
   font-size: 2em;
 }
 
-img {
-  width: 200px;
-  height: 200px;
-  background-color:red;
+.img-main {
+  width: 300px;
+  margin-top: -10px;
+}
+
+
+.game{
+  font-family: 'Raleway', sans-serif;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 4em;
+}
+
+.buttons{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+
+button{
+ margin: 20px ;
+ outline: none;
+}
+
+#question{
+  font-weight: bold;
+  font-size: 2em;
+  color: #00b3e6;
+  letter-spacing: 0.2em;
+
+
+}
+
+#logo{
+  font-family: 'Montserrat';
 }
