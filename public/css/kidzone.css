@@ -9,6 +9,7 @@ html, body {
   margin-top: 70px;
   font-family: 'Montserrat', sans-serif;
   font-size: 40px;
+  color: #323334;
 }
 
 .content-container{
@@ -62,5 +63,11 @@ button:hover {
   width: 200px;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: flex-start;
+  font-size: 35px;
+  align-items: center;
+}
+
+.score-table ol{
+  margin-top: -1em;
 }
