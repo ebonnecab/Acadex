@@ -1,6 +1,9 @@
+
 .wrapper {
   height: 680px;
 }
+
+
 
 .header{
   text-align: center;
@@ -9,6 +12,7 @@
   padding-top: 1.2em;
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
+  margin-top: 20px;
 }
 
 
@@ -17,7 +21,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  margin-top: 2em;
+  margin-top: 4em;
 }
 
 .description {
@@ -26,36 +30,38 @@
   font-family: 'Raleway', sans-serif;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
   text-align: center;
 }
 
 .description h3{
-  color: #323334;
+  color: #00b3e6;
   font-size: 2em;
+  font-weight: bold;
   
 }
 
 .description p {
   margin-top: 2em;
+  line-height: 1.5em;
 }
-
 
 button {
   text-align: center;
   font-family: 'Raleway', sans-serif;
   font-size: 17px;
   padding: 25px;
-  width: 170px;
+  width: 190px;
   letter-spacing: 0.2em;
-  background-color: #0aa1ca;
+  background-color: #00b3e6;
   color: white;
-  /* border-radius: 10px; */
+  border-radius: 50px;
   border: none;
+  align-self: center;
 }
 
 button:hover {
-  background-color: #d4ef40;
+  background-color: #ffdd30;
 
 }
 
@@ -67,8 +73,12 @@ button:hover {
 
 /* About section */
 section.about {
-  background-color: lightblue;
   height: 775px;
+}
+
+section.about h1{
+  font-size: 50px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 section.about img {
