@@ -37,30 +37,8 @@ nav ul li a {
   margin: 1em;
 }
 
-<<<<<<< HEAD
-nav ul li:first-child {
-  margin-left: 2em;
-}
-
-nav ul li a:hover {
-  text-decoration: underline;
-  color: black;
-}
-
-/* Styles for the main section */
-main {
-  width: 100%;
-  height: 100%;
-  background-color: black;
-}
-main h1,
-main p {
-  text-align: center;
-  color: white;
-=======
 a img {
   padding: 15px;
->>>>>>> 3398edceec1f8ded7b087031f8e0833551b9505e
 }
 
 a p{
