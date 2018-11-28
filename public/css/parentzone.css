@@ -1,25 +1,21 @@
-html, body {
-  width: 100%;
-  margin: 0;
-}
-.wrapper {
-  /* background-color: red; */
+header {
+  background-color: red;
   height: 680px;
 }
-
-.header {
+ h1 {
   text-align: center;
-  font-size: 2em;
+  font-size: 40px;
   color: black;
   padding-top: 1.2em;
 }
 
 
+
 .content-container {
-  margin-top: 2em;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  margin-top: 2em;
 }
 
 .description {
@@ -28,7 +24,6 @@ html, body {
 }
 
 .cta-btn{
-  position: absolute;
   border: none;
   margin-left: 50%;
   margin-top: 9em;
@@ -36,18 +31,22 @@ html, body {
 
 /* About section */
 section.about {
-  background-color: yellow;
-  height: 720px;
-}
-
-section.about h1 {
-  color: black;
-}
-
-section.about p {
-  color: black;
+  background-color: lightblue;
+  height: 775px;
 }
 
 section.about img {
-  background-color: red;
+  width: 300px;
+  height: 300px;
+  align-self: flex-start;
+  background-color: lightcoral;
+}
+
+section.about h3 {
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+section.about p {
+  t
 }

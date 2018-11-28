@@ -1,19 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Acadex - Game</title>
-    <link rel="stylesheet" href="/public/css/index.css" />
 
-  </head>
-  <body>
-    <nav>
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="parentzone.html" class="rightside">Parent Zone</a></li>
-        <li><a href="kidzone.html" class="right-side">Kid Zone</a></li>
-      </ul>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Acadex - Game</title>
+  <link rel="stylesheet" href="/public/css/index.css" />
+  <link rel="stylesheet" href="/public/css/game.css">
+
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li>
+        <a href="/">Home</a>
+      </li>
+      <li>
+        <a href="parentzone.html" class="rightside">Parent Zone</a>
+      </li>
+      <li>
+        <a href="kidzone.html" class="right-side">Kid Zone</a>
+      </li>
+    </ul>
+  </nav>
+  <div id="quiz">
+    <h1>Quiz</h1>
+    <p id="question"></p>
+    <img src="/public/img/insert.png" alt="">
+    <div class="buttons">
+      <button id="btn0">
+        <span id="choice0">Hey</span>
+      </button>
+      <button id="btn1">
+        <span id="choice1"></span>
+      </button>
+      <button id="btn2">
+        <span id="choice2"></span>
+      </button>
+      <button id="btn3">
+        <span id="choice3"></span>
+      </button>
+    </div>
+    <footer>
+      <p id="progress">Question x of y.</p>
+    </footer>
+  </div>
+  <script src="/public/js/Question_controller.js"></script>
+  <script src="/public/js/Question.js"></script>
+  <script src="/public/js/main.js"></script>
+</body>
+
 </html>
