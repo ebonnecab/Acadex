@@ -1,12 +1,14 @@
-header {
-  background-color: red;
+.wrapper {
   height: 680px;
 }
- h1 {
+
+.header{
   text-align: center;
   font-size: 40px;
-  color: black;
+  color: #323334;
   padding-top: 1.2em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
 }
 
 
@@ -21,17 +23,50 @@ header {
 .description {
   width: 40%;
   color: black;
+  font-family: 'Raleway', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
 }
 
-.cta-btn{
+.description h3{
+  color: #323334;
+  font-size: 2em;
+  
+}
+
+.description p {
+  margin-top: 2em;
+}
+
+
+button {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 17px;
+  padding: 25px;
+  width: 170px;
+  letter-spacing: 0.2em;
+  background-color: #0aa1ca;
+  color: white;
+  /* border-radius: 10px; */
   border: none;
-  margin-left: 50%;
-  margin-top: 9em;
+}
+
+button:hover {
+  background-color: #d4ef40;
+
+}
+
+.button{
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
 }
 
 /* About section */
 section.about {
-  background-color: lightblue;
   height: 775px;
 }
 

@@ -7,31 +7,28 @@ a {
   text-decoration: none;
 }
 
-
+a:hover {
+  cursor: pointer;
+}
 
 
 /* Nav styles  */
-nav {
-  height: 5em;
-  width: 100%;
-}
-
 nav ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-direction: row;
 }
 
 nav ul li {
   font-family: 'Raleway', sans-serif;
-  font-weight: 100;
+  font-weight: light;
   letter-spacing: 0.1em;
   font-size: 1.2em;
+  text-align: center;
 }
 
 nav ul li a {
   color:#00b3e6;
-  margin: 1em;
 }
 
 a img {
@@ -39,12 +36,9 @@ a img {
 }
 
 a p{
-  align-self: center;
+  text-align: center;
 }
 
-nav ul li:first-child {
-  margin-left: 2em;
-}
 
 nav ul li a:hover {
   text-decoration: dotted;

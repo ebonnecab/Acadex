@@ -54,20 +54,25 @@ button:hover {
   color: #a9a9a9;
   border-bottom: 2px solid #00b3e6;
   text-align: center;
-
 }
 
-.score-table{
-  margin-top: 2em;
-  height: 300px;
-  width: 200px;
+.score-container {
+  line-height: 30px;
+  font-size: 20px
+}
+
+.score-container .left  {
+  float: right;
+}
+
+.badge-container {
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  font-size: 35px;
-  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 300px;
 }
 
-.score-table ol{
-  margin-top: -1em;
+.badge-container img {
+  width: 100px;
+  height: 100px;
 }
