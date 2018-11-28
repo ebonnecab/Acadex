@@ -54,4 +54,3 @@ const questions = [
 
 const quiz = new Quiz(questions);
 showQuestions()
-
