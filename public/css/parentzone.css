@@ -30,19 +30,20 @@
   font-family: 'Raleway', sans-serif;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  text-align: center;
+  justify-content: flex-start;
+  text-align: left;  
 }
 
 .description h3{
   color: #00b3e6;
   font-size: 2em;
   font-weight: bold;
+  align-self: center;
   
 }
 
 .description p {
-  margin-top: 2em;
+  margin-top: 1em;
   line-height: 1.5em;
 }
 
@@ -52,12 +53,13 @@ button {
   font-size: 17px;
   padding: 25px;
   width: 190px;
-  letter-spacing: 0.2em;
+  letter-spacing: 1px;
   background-color: #00b3e6;
   color: white;
   border-radius: 50px;
   border: none;
   align-self: center;
+  outline: none;
 }
 
 button:hover {

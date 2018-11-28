@@ -42,9 +42,13 @@ a p{
 
 nav ul li a:hover {
   text-decoration: dotted;
-  color:#d4ef40;
+  color:#ffdd30;
 }
 
 button a:visited {
   color: white;
+}
+
+button {
+  outline: none;
 }

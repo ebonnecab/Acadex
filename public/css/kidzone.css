@@ -24,6 +24,7 @@ html, body {
   justify-self: flex-start;
 }
 
+
 .achievements{
   justify-self: flex-end;
 }
@@ -37,15 +38,17 @@ button {
   font-size: 20px;
   padding: 25px;
   width: 200px;
-  letter-spacing: 0.2em;
   background-color: #00b3e6;
+  letter-spacing: 1px;
   color: white;
   border-radius: 50px;
   border: none;
+  outline: none;
+  margin-left: 40px;
 }
 
 button:hover {
-  background-color: #d4ef40;
+  background-color: #ffdd30;
 }
 
 
@@ -58,7 +61,8 @@ button:hover {
 
 .score-container {
   line-height: 30px;
-  font-size: 20px
+  font-size: 20px;
+  padding-top: 10px;
 }
 
 .score-container .left  {
@@ -66,6 +70,7 @@ button:hover {
 }
 
 .badge-container {
+  padding: 15px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -76,3 +81,4 @@ button:hover {
   width: 100px;
   height: 100px;
 }
+
