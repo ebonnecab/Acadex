@@ -7,21 +7,11 @@ a {
   text-decoration: none;
 }
 
-<<<<<<< HEAD
-
-
-=======
->>>>>>> 3398edceec1f8ded7b087031f8e0833551b9505e
 
 /* Nav styles  */
-nav {
-  height: 5em;
-  width: 100%;
-}
-
 nav ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-direction: row;
 }
 
@@ -30,11 +20,11 @@ nav ul li {
   font-weight: 100;
   letter-spacing: 0.1em;
   font-size: 1.2em;
+  text-align: center;
 }
 
 nav ul li a {
   color:#00b3e6;
-  margin: 1em;
 }
 
 a img {
@@ -42,12 +32,9 @@ a img {
 }
 
 a p{
-  align-self: center;
+  text-align: center;
 }
 
-nav ul li:first-child {
-  margin-left: 2em;
-}
 
 nav ul li a:hover {
   text-decoration: dotted;
