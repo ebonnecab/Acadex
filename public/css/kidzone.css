@@ -1,9 +1,66 @@
-header {
-  background-color: blanchedalmond;
-  height: 700px;
+html, body {
+  margin: 0;
+  width: 100%;
 }
-header h1 {
-  font-size: 2em;
-  padding-top: 2em;
-  margin-left: 2em;
+
+.header {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+}
+
+.content-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-family: 'Raleway', sans-serif;
+  margin-top: 4em;
+}
+
+.high-score{
+  justify-self: flex-start;
+}
+
+.achievements{
+  justify-self: flex-end;
+}
+
+.button{
+  justify-self: center;
+}
+button {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  padding: 25px;
+  width: 200px;
+  letter-spacing: 0.2em;
+  background-color: #00b3e6;
+  color: white;
+  border-radius: 50px;
+  border: none;
+}
+
+button:hover {
+  background-color: #d4ef40;
+}
+
+
+.content-container h3 {
+  font-size: 30px;
+  color: #a9a9a9;
+  border-bottom: 2px solid #00b3e6;
+  text-align: center;
+
+}
+
+.score-table{
+  margin-top: 2em;
+  height: 300px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }

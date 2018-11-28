@@ -1,34 +1,43 @@
 @import "reset.css";
 
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Poppins|Raleway|Oswald');
+
 /* Global styles */
 a {
   text-decoration: none;
 }
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 3398edceec1f8ded7b087031f8e0833551b9505e
 
 /* Nav styles  */
 nav {
   height: 5em;
-  background-color: cyan;
   width: 100%;
 }
 
 nav ul {
   display: flex;
+  justify-content: space-between;
+  flex-direction: row;
 }
 
 nav ul li {
-  margin-top: 1em;
-  font-size: 1.4em;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  letter-spacing: 0.1em;
+  font-size: 1.2em;
 }
 
 nav ul li a {
-  color: white;
+  color:#00b3e6;
   margin: 1em;
 }
 
+<<<<<<< HEAD
 nav ul li:first-child {
   margin-left: 2em;
 }
@@ -48,24 +57,25 @@ main h1,
 main p {
   text-align: center;
   color: white;
+=======
+a img {
+  padding: 15px;
+>>>>>>> 3398edceec1f8ded7b087031f8e0833551b9505e
 }
 
-main p {
-  width: 50%;
-  margin-left: 20em;
-  margin-top: 5em;
+a p{
+  align-self: center;
 }
 
-main button {
-  margin-top: 2em;
-  margin-left: 90%;
+nav ul li:first-child {
+  margin-left: 2em;
 }
 
-main button:hover {
-  background-color: cyan;
+nav ul li a:hover {
+  text-decoration: dotted;
+  color:#d4ef40;
 }
 
-main h1 {
-  font-size: 5em;
-  padding-top: 1em;
+button a:visited {
+  color: white;
 }
