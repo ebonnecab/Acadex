@@ -53,3 +53,11 @@ button {
   outline: none;
 }
 
+.logo{
+  margin-top: 25px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; 
+  margin-left: 450px;
+}
