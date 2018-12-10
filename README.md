@@ -22,6 +22,7 @@ These instructions will get you a copy of the project up and running on your loc
 No extra installation needed :)
 
 ## Deployment 
+At the moment it's currently deployed to [Github pages](https://will0101.github.io/Acadex/index.html)
 
 ## Built With
 
