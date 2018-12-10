@@ -1,63 +1,66 @@
 @import "reset.css";
-
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Poppins|Raleway|Oswald');
-
 /* Global styles */
+
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
-a:hover,a button {
-  cursor: pointer;
+a:hover,
+a button {
+    cursor: pointer;
 }
-
 
 /* Nav styles  */
+
 nav ul {
-  display: flex;
-  justify-content: space-around;
-  flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
 }
 
 nav ul li {
-  font-family: 'Raleway', sans-serif;
-  font-weight: light;
-  letter-spacing: 0.1em;
-  font-size: 1.2em;
-  text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: light;
+    letter-spacing: 0.1em;
+    font-size: 1.2em;
+    text-align: center;
 }
 
 nav ul li a {
-  color:#00b3e6;
+    color: #00b3e6;
 }
 
 a img {
-  padding: 15px;
+    padding: 15px;
 }
 
-a p{
-  text-align: center;
+a p {
+    text-align: center;
 }
-
 
 nav ul li a:hover {
-  text-decoration: dotted;
-  color:#ffdd30;
+    text-decoration: dotted;
+    color: #ffdd30;
 }
 
 button a:visited {
-  color: white;
+    color: white;
 }
 
 button {
-  outline: none;
+    outline: none;
 }
 
-.logo{
-  margin-top: 25px;
-  padding: 10px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly; 
-  margin-left: 450px;
+.logo {
+    margin-top: 25px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 450px;
+}
+
+.underline {
+    border-bottom: #fec508 solid 3px;
 }
