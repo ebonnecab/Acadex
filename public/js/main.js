@@ -40,13 +40,13 @@ function showProgress() {
 
 
 
-const text = "How is Jordan feeling today?"
+const question = "How is Jordan feeling today?"
 const questions = [
-  new Question(text, ["Happy", "Sad", "Mad", "Annoyed"], "Happy"),
-  new Question(text, ["Mad", "Sad", "Happy", "Be Quiet"], "Mad"),
-  new Question(text, ["Happy", "Annoyed", "Mad", "Sad"], "Sad"),
-  new Question(text, ["Happy", "Sad", "Mad", "Annoyed"], "Annoyed"),
-  new Question(text, ["Calm", "Sad", "Mad", "Annoyed"], "Calm"),
+  new Question(question, ["Happy", "Sad", "Mad", "Annoyed"], "Happy"),
+  new Question(question, ["Mad", "Sad", "Happy", "Be Quiet"], "Mad"),
+  new Question(question, ["Happy", "Annoyed", "Mad", "Sad"], "Sad"),
+  new Question(question, ["Happy", "Sad", "Mad", "Annoyed"], "Annoyed"),
+  new Question(question, ["Calm", "Sad", "Mad", "Annoyed"], "Calm"),
 ]
 
 
